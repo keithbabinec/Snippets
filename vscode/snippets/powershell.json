@@ -1,0 +1,40 @@
+{
+    "Function advanced": {
+        "prefix": "psfunc",
+        "body": [
+            "function Verb-Noun",
+            "{",
+            "\t<#",
+            "\t.SYNOPSIS",
+            "\t\tShort description.",
+            "",
+            "\t.DESCRIPTION",
+            "\t\tLong description.",
+            "",
+            "\t.PARAMETER Name",
+            "\t\tSpecify the name value.",
+            "",
+            "\t.EXAMPLE",
+            "\t\tPS C:\> Verb-Noun -Name 'Test'",
+            "\t\tExample description goes here.",
+            "\t#>",
+            "\t[CmdletBinding()]",
+            "\tParam",
+            "\t(",
+            "\t\t[Parameter(",
+            "\t\t\tMandatory=\\$true,",
+            "\t\t\tParameterSetName='ByName',",
+            "\t\t\tHelpMessage='Specify the name value.')]",
+            "\t\t[System.String]",
+            "\t\t[ValidateNotNullOrEmpty()]",
+            "\t\t\\$FilePath",
+            "\t)",
+            "\tProcess",
+            "\t{",
+            "\t\t# code",
+            "\t}",
+            "}"
+        ],
+        "description": "Advanced function"
+    }
+}

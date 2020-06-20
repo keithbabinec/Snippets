@@ -27,7 +27,7 @@
             "\t\t\tHelpMessage='Specify the name value.')]",
             "\t\t[System.String]",
             "\t\t[ValidateNotNullOrEmpty()]",
-            "\t\t\\$FilePath",
+            "\t\t\\$Name",
             "\t)",
             "\tProcess",
             "\t{",

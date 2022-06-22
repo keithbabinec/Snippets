@@ -15,7 +15,7 @@
             "\t\tSpecify the name value.",
             "",
             "\t.EXAMPLE",
-            "\t\tPS C:\\\> Verb-Noun -Name 'Test'",
+            "\t\tPS C:\\> Verb-Noun -Name 'Test'",
             "\t\tExample description goes here.",
             "\t#>",
             "\t[CmdletBinding()]",
